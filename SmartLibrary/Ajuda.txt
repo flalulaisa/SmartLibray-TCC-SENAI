@@ -1,0 +1,8 @@
+Introdução
+como cadastrar usuario
+removendo usuario
+como cadastrar um livro
+removendo um livro
+como fazer uma consulta
+
+Mostrar todos os comandos

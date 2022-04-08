@@ -1,0 +1,548 @@
+/*https://www.flaticon.com/free-icon/camera_685655?term=photo&page=1&position=1&related_item_id=685655*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100vh;
+    background:url(fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo{
+    color: #fff;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 10px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.navbar {
+    width: 100%;
+    height: 75px;
+    margin: auto;
+    background-color: #006486;
+}
+
+#form{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    border-radius: 10px;
+    padding: 60px 60px 40px 60px;
+    width: 330px;
+    align-items: center;
+    color: #fff;
+    animation: initial 1.6s ease-out;
+    pointer-events: all;
+}
+
+.title{
+    position: relative;
+    font-family: sans-serif;
+    text-align: center;
+    color: #006486;
+    font-size: 22px;
+    background-color: #fff;
+    padding: 5px;
+    width: 300px;
+    border-radius: 22px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0px 0px 30px -5px;
+}
+
+.input{
+    min-width: 280px;
+    border-radius: 22px;
+    border: 2px #006486 solid;
+    padding: 5px;
+    margin: 0px 0px 12px -5px;
+}
+
+.input1{
+    min-width: 280px;
+    border-radius: 22px;
+    border: 2px #006486 solid;
+    padding: 10px;
+    margin: 0px 0px 6px -5px;
+}
+
+.input i, .input1 i{
+    font-size: 1.2em;
+    padding: 5px;
+    background: -webkit-linear-gradient(-45deg, #3f1be2, #5398ff, #00a2ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.input input, .input1 input, .input2 input {
+    width: 80%;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 11pt;
+    letter-spacing: 1px;
+    background: transparent;
+}
+
+.inputAnoEdi input {
+    width: 98%;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 11pt;
+    letter-spacing: 1px;
+    background: transparent;
+}
+
+textarea{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 11pt;
+    letter-spacing: 1px;
+    background: transparent;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+#btn{
+    margin-top: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+#btn button{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #006486;
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-size: 1.2em;
+    color: #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+#btn1 button{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #006486;
+    width: 300px;
+    height: 40px;
+    border: none;
+    font-size: 1.2em;
+    color: #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s ease;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 40px;
+}
+#btn4 button{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #006486;
+    width: 300px;
+    height: 40px;
+    border: none;
+    font-size: 1.2em;
+    color: #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s ease;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 160px;
+}
+
+#btn button:hover, #btn1 button:hover, #btn4 button:hover{
+    background: #fff;
+    color: #006486;
+    font-weight: bold;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+#form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#form .link a{
+    text-decoration: none;
+    color: #006486;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #006486;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+
+.btnn:hover{
+    background: #fff;
+    color: #006486;
+}
+
+footer{
+    position: fixed;
+    color: #000;
+    font-size: 15px;
+    font-family: Arial;
+    top: 97%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#msg{ 
+    resize: none; /*para deixar a caixa de descrição em tamanho fixo*/
+}
+
+.line {
+    display: contents;
+    justify-content: center;
+    justify-items: center;
+    max-width: 800px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.line > div {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.container{
+    position: relative;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    max-width: 800px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 13px 0px;
+    margin-top: -30px;
+}
+
+label{
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.container2{
+    position: relative;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    max-width: 1000px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 15px 10px;
+    margin-top: -30px;
+}
+
+/*----------  Input de data  -----------*/
+
+input::-webkit-calendar-picker-indicator{
+    background-color: #006486;
+    cursor: pointer;
+    border-radius: 4px;
+ }
+ 
+ input::-webkit-calendar-picker-indicator:hover{
+     background-color: #fff;
+ }
+ 
+ .inputAnoEdi{
+     min-width: 280px;
+     border-radius: 22px;
+     border: 2px #006486 solid;
+     padding: 8px;
+     margin: 0px 0px 6px -5px;
+ }
+ 
+ /*----------  Capa do livro  -----------*/
+ 
+ .inputCapa{
+     border-radius: 22px;
+     border: 2px #006486 solid;
+     padding: 10px;
+     margin: 0px 0px 0px 260px;
+     width: 100px;
+     height: 130px;
+ }
+ 
+ .labelCapa{
+     margin: 0px 0px 0px 260px;
+     width: 100px;
+     height: 130px;
+ }
+ 
+ input[type='file'] {
+     display: none;
+ }
+ 
+ #imgPhoto {
+     border-radius: 6px;
+     cursor: pointer;
+     transition: background .3s;
+     width: 100px;
+     height: 130px;
+     font-family: sans-serif;
+     color: #fff;
+     font-size: 11pt;
+ }
+ 
+ #imgPhoto:hover{
+     background-color: #fff;
+ }
+ /*---------- Fim Capa do livro  -----------*/
+
+ p {
+    text-decoration: none;
+    color: white;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  img {
+    width: 100px;
+    display: inline-flex;
+    margin-bottom: 5px;
+  }
+
+  .flex, .flexx{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+    width: 100%;   
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+  }
+
+.flex > div{
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    list-style: none;
+    font-size: 1.2em;
+    flex: 1 1 90px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    /*background-color: #ff7200;*/
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%,rgba(0,0,0,0.8)50%);
+}
+
+.flexx > div{
+    color: #fff;
+    font-family: sans-serif;
+    text-align: center;
+    list-style: none;
+    font-size: 1.2em;
+    flex: 1 1 90px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%,rgba(0,0,0,0.8)50%);
+}
+
+.flexx > div a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.item4:hover a{
+    color: #006486;
+}
+
+.item4:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: #006486;
+    background: linear-gradient(to top, rgba(223, 222, 222, 0.8)50%,rgba(223, 222, 222, 0.8)50%);
+    transition: 0.4s ease;
+}
+    
+.item:hover{
+    cursor: pointer;
+    font-weight: bold;
+    color: #006486;
+    background: linear-gradient(to top, rgba(223, 222, 222, 0.8)50%,rgba(223, 222, 222, 0.8)50%);
+    transition: 0.4s ease;
+}
+
+@media screen and (max-width:1200px) {
+    /*Normal Screen*/
+}
+@media screen and (max-width: 830px){
+    /*Tablet*/
+}
+@media screen and (max-width: 600px){
+    /*IPAD*/
+}
+@media screen and (max-width: 450px) {
+    /*Mobile*/
+
+     .inputCapa{
+         border-radius: 22px;
+         border: 2px #006486 solid;
+         padding: 10px;
+         margin: 0px 0px 0px 130px;
+         width: 100px;
+         height: 130px;
+     }
+     
+     .labelCapa{
+         margin: 0px 0px 0px 130px;
+         width: 100px;
+         height: 130px;
+     }
+ }
+
+ #btn2 button{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #006486;
+    padding: 10px 15px;
+    border: none;
+    font-size: 1.2em;
+    color: #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+
+.container3 {
+    position: relative;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    max-width: 699px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    justify-items: center; 
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.input2 {
+    min-width: 300px;
+    border-radius: 22px;
+    border: 2px #006486 solid;
+    padding: 10px;
+}
+
+.title1 {
+    position: absolute;
+    font-family: sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    background-color: #006486;
+    margin-top: 95px;
+    padding: 5px;
+    width: 300px;
+    border-radius: 22px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.title3 {
+    position: relative;
+    font-family: sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    background-color: #006486;
+    padding: 5px;
+    margin: 35px 0px;
+    width: 300px;
+    border-radius: 22px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container4{
+    position: relative;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    max-width: 850px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 15px 10px;
+    margin-top: -30px;
+}
+
+.inputCapa2{
+    border-radius: 22px;
+    border: 2px #006486 solid;
+    padding: 10px;
+    margin: 0px 0px 0px 145px;
+    width: 100px;
+    height: 130px;
+}
+
+.labelCapa2{
+    margin: 0px 0px 0px 145px;
+    width: 100px;
+    height: 130px;
+}
+
+.icon {
+    display: inline-flex;
+}
+
+#imLogo {
+    width: 65px;
+    display: inline-flex;
+    margin: 10px 0px 0px 10px;
+}
